@@ -499,7 +499,7 @@
   }
   .tl-item:not(:last-child)::after {
     content: '';
-    position: absolute;
+    position: none;
     left: 99px; top: 8px;
     width: 1px; bottom: 0;
     background: linear-gradient(to bottom, var(--neon-dark), transparent);
@@ -514,7 +514,7 @@
   }
   .tl-dot {
     position: absolute;
-    left: 91px; top: 4px;
+    left: 104px; top: 1px;
     width: 16px; height: 16px;
     border: 2px solid var(--neon);
     border-radius: 50%;
@@ -790,10 +790,10 @@
   .social-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.2rem;
+    gap: 1.1rem;
     justify-content: center;
     width: 100%;
-    max-width: 780px;
+    max-width: 930px;
   }
   .social-card {
     background: var(--bg);
@@ -807,7 +807,7 @@
     color: var(--text);
     flex: 1;
     min-width: 220px;
-    max-width: 340px;
+    max-width: 300px;
     transition: border-color .3s, transform .3s, box-shadow .3s, background .3s;
     position: relative;
     overflow: hidden;
@@ -1344,7 +1344,7 @@
         </span>
         <div class="social-card-info">
           <span class="social-card-platform">E-mail</span>
-          <span class="social-card-handle">boiaskiguilherme4<br>@gmail.com</span>
+          <span class="social-card-handle">boiaskiguilherme4@gmail.com</span>
         </div>
         <span class="social-card-arrow">→</span>
       </a>
